@@ -1,0 +1,288 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1450pt" height="620pt" viewBox="0.00 0.00 1449.85 620.00">
+<g id="graph0" class="graph" transform="translate(-399.6269151541003,522.4026869180115) scale(1.5157165665103987)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-616 1445.85,-616 1445.85,4 -4,4" style=""/>
+<!-- [root] azurerm_network_interface.example -->
+<g id="node1" class="node" pointer-events="visible" data-name="[root] azurerm_network_interface.example">
+
+<polygon fill="none" stroke="black" points="1075.31,-396 854.08,-396 854.08,-360 1075.31,-360 1075.31,-396" style=""/>
+<text text-anchor="middle" x="964.7" y="-373.8" font-family="Times,serif" font-size="14.00" style="">azurerm_network_interface.example</text>
+</g>
+<!-- [root] azurerm_network_interface.example (expand) -->
+<g id="node2" class="node" pointer-events="visible" data-name="[root] azurerm_network_interface.example (expand)">
+
+<polygon fill="none" stroke="black" points="1155.31,-108 934.08,-108 934.08,-72 1155.31,-72 1155.31,-108" style=""/>
+<text text-anchor="middle" x="1044.7" y="-85.8" font-family="Times,serif" font-size="14.00" style="">azurerm_network_interface.example</text>
+</g>
+<!-- [root] azurerm_network_interface.example&#45;&gt;[root] azurerm_network_interface.example (expand) -->
+<g id="edge2" class="edge" data-name="[root] azurerm_network_interface.example-&gt;[root] azurerm_network_interface.example (expand)">
+
+<path fill="none" stroke="black" d="M983.83,-359.81C1006.99,-337.58 1044.73,-296.43 1059.7,-252 1074.77,-207.26 1063.56,-151.82 1054.1,-119.05" style=""/>
+<polygon fill="black" stroke="black" points="1057.58,-118.45 1051.32,-109.91 1050.88,-120.49 1057.58,-118.45" style=""/>
+</g>
+<!-- [root] azurerm_public_ip.example -->
+<g id="node5" class="node" pointer-events="visible" data-name="[root] azurerm_public_ip.example">
+
+<polygon fill="none" stroke="black" points="1050.85,-252 878.54,-252 878.54,-216 1050.85,-216 1050.85,-252" style=""/>
+<text text-anchor="middle" x="964.7" y="-229.8" font-family="Times,serif" font-size="14.00" style="">azurerm_public_ip.example</text>
+</g>
+<!-- [root] azurerm_network_interface.example&#45;&gt;[root] azurerm_public_ip.example -->
+<g id="edge3" class="edge" data-name="[root] azurerm_network_interface.example-&gt;[root] azurerm_public_ip.example">
+
+<path fill="none" stroke="black" d="M964.7,-359.59C964.7,-335.61 964.7,-292.14 964.7,-263.42" style=""/>
+<polygon fill="black" stroke="black" points="968.2,-263.62 964.7,-253.62 961.2,-263.62 968.2,-263.62" style=""/>
+</g>
+<!-- [root] azurerm_subnet.example -->
+<g id="node9" class="node" pointer-events="visible" data-name="[root] azurerm_subnet.example">
+
+<polygon fill="none" stroke="black" points="863.02,-324 706.37,-324 706.37,-288 863.02,-288 863.02,-324" style=""/>
+<text text-anchor="middle" x="784.7" y="-301.8" font-family="Times,serif" font-size="14.00" style="">azurerm_subnet.example</text>
+</g>
+<!-- [root] azurerm_network_interface.example&#45;&gt;[root] azurerm_subnet.example -->
+<g id="edge4" class="edge" data-name="[root] azurerm_network_interface.example-&gt;[root] azurerm_subnet.example">
+
+<path fill="none" stroke="black" d="M919.74,-359.52C895.59,-350.13 865.62,-338.47 840.05,-328.53" style=""/>
+<polygon fill="black" stroke="black" points="841.39,-325.29 830.8,-324.93 838.85,-331.82 841.39,-325.29" style=""/>
+</g>
+<!-- [root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] -->
+<g id="node17" class="node" pointer-events="visible" data-name="[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;]">
+
+<polygon fill="none" stroke="black" points="746.7,-36 448.67,-18 746.7,0 1044.72,-18 746.7,-36" style=""/>
+<text text-anchor="middle" x="746.7" y="-13.8" font-family="Times,serif" font-size="14.00" style="">provider["registry.terraform.io/hashicorp/azurerm"]</text>
+</g>
+<!-- [root] azurerm_network_interface.example (expand)&#45;&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] -->
+<g id="edge1" class="edge" data-name="[root] azurerm_network_interface.example (expand)-&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;]">
+
+<path fill="none" stroke="black" d="M970.27,-71.52C923.28,-60.48 862.97,-46.31 816.84,-35.48" style=""/>
+<polygon fill="black" stroke="black" points="817.74,-32.09 807.2,-33.21 816.14,-38.91 817.74,-32.09" style=""/>
+</g>
+<!-- [root] azurerm_network_security_group.example -->
+<g id="node3" class="node" pointer-events="visible" data-name="[root] azurerm_network_security_group.example">
+
+<polygon fill="none" stroke="black" points="594.83,-252 338.56,-252 338.56,-216 594.83,-216 594.83,-252" style=""/>
+<text text-anchor="middle" x="466.7" y="-229.8" font-family="Times,serif" font-size="14.00" style="">azurerm_network_security_group.example</text>
+</g>
+<!-- [root] azurerm_network_security_group.example (expand) -->
+<g id="node4" class="node" pointer-events="visible" data-name="[root] azurerm_network_security_group.example (expand)">
+
+<polygon fill="none" stroke="black" points="398.83,-180 142.56,-180 142.56,-144 398.83,-144 398.83,-180" style=""/>
+<text text-anchor="middle" x="270.7" y="-157.8" font-family="Times,serif" font-size="14.00" style="">azurerm_network_security_group.example</text>
+</g>
+<!-- [root] azurerm_network_security_group.example&#45;&gt;[root] azurerm_network_security_group.example (expand) -->
+<g id="edge6" class="edge" data-name="[root] azurerm_network_security_group.example-&gt;[root] azurerm_network_security_group.example (expand)">
+
+<path fill="none" stroke="black" d="M417.74,-215.52C391.1,-206 357.94,-194.16 329.85,-184.13" style=""/>
+<polygon fill="black" stroke="black" points="331.38,-180.96 320.79,-180.89 329.03,-187.55 331.38,-180.96" style=""/>
+</g>
+<!-- [root] azurerm_resource_group.rg1 -->
+<g id="node7" class="node" pointer-events="visible" data-name="[root] azurerm_resource_group.rg1">
+
+<polygon fill="none" stroke="black" points="594.79,-180 416.6,-180 416.6,-144 594.79,-144 594.79,-180" style=""/>
+<text text-anchor="middle" x="505.7" y="-157.8" font-family="Times,serif" font-size="14.00" style="">azurerm_resource_group.rg1</text>
+</g>
+<!-- [root] azurerm_network_security_group.example&#45;&gt;[root] azurerm_resource_group.rg1 -->
+<g id="edge7" class="edge" data-name="[root] azurerm_network_security_group.example-&gt;[root] azurerm_resource_group.rg1">
+
+<path fill="none" stroke="black" d="M476.34,-215.7C480.63,-207.98 485.8,-198.71 490.59,-190.11" style=""/>
+<polygon fill="black" stroke="black" points="493.62,-191.87 495.43,-181.43 487.5,-188.46 493.62,-191.87" style=""/>
+</g>
+<!-- [root] azurerm_network_security_group.example (expand)&#45;&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] -->
+<g id="edge5" class="edge" data-name="[root] azurerm_network_security_group.example (expand)-&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;]">
+
+<path fill="none" stroke="black" d="M295.64,-143.67C326.26,-123.27 380.43,-89.89 431.7,-72 490.97,-51.31 559.41,-38.56 617.33,-30.76" style=""/>
+<polygon fill="black" stroke="black" points="617.43,-34.28 626.89,-29.51 616.52,-27.34 617.43,-34.28" style=""/>
+</g>
+<!-- [root] azurerm_public_ip.example (expand) -->
+<g id="node6" class="node" pointer-events="visible" data-name="[root] azurerm_public_ip.example (expand)">
+
+<polygon fill="none" stroke="black" points="1050.85,-180 878.54,-180 878.54,-144 1050.85,-144 1050.85,-180" style=""/>
+<text text-anchor="middle" x="964.7" y="-157.8" font-family="Times,serif" font-size="14.00" style="">azurerm_public_ip.example</text>
+</g>
+<!-- [root] azurerm_public_ip.example&#45;&gt;[root] azurerm_public_ip.example (expand) -->
+<g id="edge9" class="edge" data-name="[root] azurerm_public_ip.example-&gt;[root] azurerm_public_ip.example (expand)">
+
+<path fill="none" stroke="black" d="M964.7,-215.7C964.7,-208.41 964.7,-199.73 964.7,-191.54" style=""/>
+<polygon fill="black" stroke="black" points="968.2,-191.62 964.7,-181.62 961.2,-191.62 968.2,-191.62" style=""/>
+</g>
+<!-- [root] azurerm_public_ip.example&#45;&gt;[root] azurerm_resource_group.rg1 -->
+<g id="edge10" class="edge" data-name="[root] azurerm_public_ip.example-&gt;[root] azurerm_resource_group.rg1">
+
+<path fill="none" stroke="black" d="M878.16,-220.94C807.62,-210.96 705.09,-196.12 606.24,-180.39" style=""/>
+<polygon fill="black" stroke="black" points="607.06,-176.97 596.63,-178.85 605.96,-183.89 607.06,-176.97" style=""/>
+</g>
+<!-- [root] azurerm_public_ip.example (expand)&#45;&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] -->
+<g id="edge8" class="edge" data-name="[root] azurerm_public_ip.example (expand)-&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;]">
+
+<path fill="none" stroke="black" d="M951.26,-143.77C933.2,-120.94 901.63,-82.36 886.7,-72 864.56,-56.64 837.4,-45.03 812.91,-36.65" style=""/>
+<polygon fill="black" stroke="black" points="814.26,-33.42 803.67,-33.62 812.08,-40.07 814.26,-33.42" style=""/>
+</g>
+<!-- [root] azurerm_resource_group.rg1 (expand) -->
+<g id="node8" class="node" pointer-events="visible" data-name="[root] azurerm_resource_group.rg1 (expand)">
+
+<polygon fill="none" stroke="black" points="618.79,-108 440.6,-108 440.6,-72 618.79,-72 618.79,-108" style=""/>
+<text text-anchor="middle" x="529.7" y="-85.8" font-family="Times,serif" font-size="14.00" style="">azurerm_resource_group.rg1</text>
+</g>
+<!-- [root] azurerm_resource_group.rg1&#45;&gt;[root] azurerm_resource_group.rg1 (expand) -->
+<g id="edge12" class="edge" data-name="[root] azurerm_resource_group.rg1-&gt;[root] azurerm_resource_group.rg1 (expand)">
+
+<path fill="none" stroke="black" d="M511.63,-143.7C514.19,-136.24 517.24,-127.32 520.11,-118.97" style=""/>
+<polygon fill="black" stroke="black" points="523.41,-120.13 523.34,-109.54 516.79,-117.86 523.41,-120.13" style=""/>
+</g>
+<!-- [root] azurerm_resource_group.rg1 (expand)&#45;&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] -->
+<g id="edge11" class="edge" data-name="[root] azurerm_resource_group.rg1 (expand)-&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;]">
+
+<path fill="none" stroke="black" d="M583.89,-71.52C616.38,-61.04 657.61,-47.74 690.45,-37.14" style=""/>
+<polygon fill="black" stroke="black" points="691.36,-40.53 699.8,-34.13 689.21,-33.87 691.36,-40.53" style=""/>
+</g>
+<!-- [root] azurerm_subnet.example (expand) -->
+<g id="node10" class="node" pointer-events="visible" data-name="[root] azurerm_subnet.example (expand)">
+
+<polygon fill="none" stroke="black" points="878.02,-108 721.37,-108 721.37,-72 878.02,-72 878.02,-108" style=""/>
+<text text-anchor="middle" x="799.7" y="-85.8" font-family="Times,serif" font-size="14.00" style="">azurerm_subnet.example</text>
+</g>
+<!-- [root] azurerm_subnet.example&#45;&gt;[root] azurerm_subnet.example (expand) -->
+<g id="edge14" class="edge" data-name="[root] azurerm_subnet.example-&gt;[root] azurerm_subnet.example (expand)">
+
+<path fill="none" stroke="black" d="M805.96,-287.7C815.8,-278.31 826.46,-265.8 831.7,-252 848.73,-207.12 844.57,-190.24 831.7,-144 829.14,-134.83 824.52,-125.65 819.57,-117.58" style=""/>
+<polygon fill="black" stroke="black" points="822.53,-115.7 814.09,-109.29 816.69,-119.56 822.53,-115.7" style=""/>
+</g>
+<!-- [root] azurerm_virtual_network.example -->
+<g id="node13" class="node" pointer-events="visible" data-name="[root] azurerm_virtual_network.example">
+
+<polygon fill="none" stroke="black" points="822.39,-252 613,-252 613,-216 822.39,-216 822.39,-252" style=""/>
+<text text-anchor="middle" x="717.7" y="-229.8" font-family="Times,serif" font-size="14.00" style="">azurerm_virtual_network.example</text>
+</g>
+<!-- [root] azurerm_subnet.example&#45;&gt;[root] azurerm_virtual_network.example -->
+<g id="edge15" class="edge" data-name="[root] azurerm_subnet.example-&gt;[root] azurerm_virtual_network.example">
+
+<path fill="none" stroke="black" d="M768.13,-287.7C760.26,-279.47 750.7,-269.48 742.03,-260.42" style=""/>
+<polygon fill="black" stroke="black" points="744.56,-258 735.11,-253.2 739.5,-262.84 744.56,-258" style=""/>
+</g>
+<!-- [root] azurerm_subnet.example (expand)&#45;&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] -->
+<g id="edge13" class="edge" data-name="[root] azurerm_subnet.example (expand)-&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;]">
+
+<path fill="none" stroke="black" d="M786.59,-71.7C780.41,-63.52 772.89,-53.6 766.07,-44.58" style=""/>
+<polygon fill="black" stroke="black" points="769.02,-42.69 760.19,-36.83 763.44,-46.91 769.02,-42.69" style=""/>
+</g>
+<!-- [root] azurerm_subnet_network_security_group_association.example -->
+<g id="node11" class="node" pointer-events="visible" data-name="[root] azurerm_subnet_network_security_group_association.example">
+
+<polygon fill="none" stroke="black" points="789.59,-396 419.8,-396 419.8,-360 789.59,-360 789.59,-396" style=""/>
+<text text-anchor="middle" x="604.7" y="-373.8" font-family="Times,serif" font-size="14.00" style="">azurerm_subnet_network_security_group_association.example</text>
+</g>
+<!-- [root] azurerm_subnet_network_security_group_association.example&#45;&gt;[root] azurerm_network_security_group.example -->
+<g id="edge17" class="edge" data-name="[root] azurerm_subnet_network_security_group_association.example-&gt;[root] azurerm_network_security_group.example">
+
+<path fill="none" stroke="black" d="M587.77,-359.59C563.54,-334.65 518.8,-288.62 491.02,-260.03" style=""/>
+<polygon fill="black" stroke="black" points="493.86,-257.93 484.38,-253.2 488.84,-262.81 493.86,-257.93" style=""/>
+</g>
+<!-- [root] azurerm_subnet_network_security_group_association.example&#45;&gt;[root] azurerm_subnet.example -->
+<g id="edge18" class="edge" data-name="[root] azurerm_subnet_network_security_group_association.example-&gt;[root] azurerm_subnet.example">
+
+<path fill="none" stroke="black" d="M649.65,-359.52C673.8,-350.13 703.77,-338.47 729.34,-328.53" style=""/>
+<polygon fill="black" stroke="black" points="730.54,-331.82 738.59,-324.93 728,-325.29 730.54,-331.82" style=""/>
+</g>
+<!-- [root] azurerm_subnet_network_security_group_association.example (expand) -->
+<g id="node12" class="node" pointer-events="visible" data-name="[root] azurerm_subnet_network_security_group_association.example (expand)">
+
+<polygon fill="none" stroke="black" points="369.59,-324 -0.2,-324 -0.2,-288 369.59,-288 369.59,-324" style=""/>
+<text text-anchor="middle" x="184.7" y="-301.8" font-family="Times,serif" font-size="14.00" style="">azurerm_subnet_network_security_group_association.example</text>
+</g>
+<!-- [root] azurerm_subnet_network_security_group_association.example&#45;&gt;[root] azurerm_subnet_network_security_group_association.example (expand) -->
+<g id="edge19" class="edge" data-name="[root] azurerm_subnet_network_security_group_association.example-&gt;[root] azurerm_subnet_network_security_group_association.example (expand)">
+
+<path fill="none" stroke="black" d="M499.79,-359.52C439.17,-349.41 362.8,-336.68 300.43,-326.29" style=""/>
+<polygon fill="black" stroke="black" points="301.28,-322.88 290.84,-324.69 300.13,-329.79 301.28,-322.88" style=""/>
+</g>
+<!-- [root] azurerm_subnet_network_security_group_association.example (expand)&#45;&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] -->
+<g id="edge16" class="edge" data-name="[root] azurerm_subnet_network_security_group_association.example (expand)-&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;]">
+
+<path fill="none" stroke="black" d="M170.16,-287.91C145.44,-256.68 100.92,-189.41 133.7,-144 185.47,-72.28 419.52,-41.22 582.93,-28.12" style=""/>
+<polygon fill="black" stroke="black" points="582.88,-31.63 592.57,-27.36 582.33,-24.65 582.88,-31.63" style=""/>
+</g>
+<!-- [root] azurerm_virtual_network.example&#45;&gt;[root] azurerm_resource_group.rg1 -->
+<g id="edge21" class="edge" data-name="[root] azurerm_virtual_network.example-&gt;[root] azurerm_resource_group.rg1">
+
+<path fill="none" stroke="black" d="M664.75,-215.52C635.67,-205.92 599.43,-193.95 568.88,-183.86" style=""/>
+<polygon fill="black" stroke="black" points="570.37,-180.67 559.77,-180.86 568.17,-187.32 570.37,-180.67" style=""/>
+</g>
+<!-- [root] azurerm_virtual_network.example (expand) -->
+<g id="node14" class="node" pointer-events="visible" data-name="[root] azurerm_virtual_network.example (expand)">
+
+<polygon fill="none" stroke="black" points="822.39,-180 613,-180 613,-144 822.39,-144 822.39,-180" style=""/>
+<text text-anchor="middle" x="717.7" y="-157.8" font-family="Times,serif" font-size="14.00" style="">azurerm_virtual_network.example</text>
+</g>
+<!-- [root] azurerm_virtual_network.example&#45;&gt;[root] azurerm_virtual_network.example (expand) -->
+<g id="edge22" class="edge" data-name="[root] azurerm_virtual_network.example-&gt;[root] azurerm_virtual_network.example (expand)">
+
+<path fill="none" stroke="black" d="M717.7,-215.7C717.7,-208.41 717.7,-199.73 717.7,-191.54" style=""/>
+<polygon fill="black" stroke="black" points="721.2,-191.62 717.7,-181.62 714.2,-191.62 721.2,-191.62" style=""/>
+</g>
+<!-- [root] azurerm_virtual_network.example (expand)&#45;&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] -->
+<g id="edge20" class="edge" data-name="[root] azurerm_virtual_network.example (expand)-&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;]">
+
+<path fill="none" stroke="black" d="M713.32,-143.54C709.52,-125.31 705.64,-96.06 712.7,-72 715.49,-62.45 720.6,-53 726.02,-44.77" style=""/>
+<polygon fill="black" stroke="black" points="728.84,-46.84 731.77,-36.66 723.13,-42.79 728.84,-46.84" style=""/>
+</g>
+<!-- [root] azurerm_windows_virtual_machine.example -->
+<g id="node15" class="node" pointer-events="visible" data-name="[root] azurerm_windows_virtual_machine.example">
+
+<polygon fill="none" stroke="black" points="1099,-468 830.39,-468 830.39,-432 1099,-432 1099,-468" style=""/>
+<text text-anchor="middle" x="964.7" y="-445.8" font-family="Times,serif" font-size="14.00" style="">azurerm_windows_virtual_machine.example</text>
+</g>
+<!-- [root] azurerm_windows_virtual_machine.example&#45;&gt;[root] azurerm_network_interface.example -->
+<g id="edge24" class="edge" data-name="[root] azurerm_windows_virtual_machine.example-&gt;[root] azurerm_network_interface.example">
+
+<path fill="none" stroke="black" d="M964.7,-431.7C964.7,-424.41 964.7,-415.73 964.7,-407.54" style=""/>
+<polygon fill="black" stroke="black" points="968.2,-407.62 964.7,-397.62 961.2,-407.62 968.2,-407.62" style=""/>
+</g>
+<!-- [root] azurerm_windows_virtual_machine.example (expand) -->
+<g id="node16" class="node" pointer-events="visible" data-name="[root] azurerm_windows_virtual_machine.example (expand)">
+
+<polygon fill="none" stroke="black" points="1442,-108 1173.39,-108 1173.39,-72 1442,-72 1442,-108" style=""/>
+<text text-anchor="middle" x="1307.7" y="-85.8" font-family="Times,serif" font-size="14.00" style="">azurerm_windows_virtual_machine.example</text>
+</g>
+<!-- [root] azurerm_windows_virtual_machine.example&#45;&gt;[root] azurerm_windows_virtual_machine.example (expand) -->
+<g id="edge25" class="edge" data-name="[root] azurerm_windows_virtual_machine.example-&gt;[root] azurerm_windows_virtual_machine.example (expand)">
+
+<path fill="none" stroke="black" d="M1068.43,-431.51C1136.39,-413.44 1212.7,-377.45 1212.7,-307 1212.7,-307 1212.7,-307 1212.7,-233 1212.7,-185.42 1249.99,-141.72 1277.85,-115.71" style=""/>
+<polygon fill="black" stroke="black" points="1279.94,-118.54 1285.02,-109.24 1275.25,-113.34 1279.94,-118.54" style=""/>
+</g>
+<!-- [root] azurerm_windows_virtual_machine.example (expand)&#45;&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] -->
+<g id="edge23" class="edge" data-name="[root] azurerm_windows_virtual_machine.example (expand)-&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;]">
+
+<path fill="none" stroke="black" d="M1172.97,-72.19C1074.57,-59.91 943.03,-43.5 852.23,-32.17" style=""/>
+<polygon fill="black" stroke="black" points="852.66,-28.7 842.31,-30.93 851.79,-35.64 852.66,-28.7" style=""/>
+</g>
+<!-- [root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] (close) -->
+<g id="node18" class="node" pointer-events="visible" data-name="[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] (close)">
+
+<ellipse fill="none" stroke="black" cx="784.7" cy="-522" rx="263.99" ry="18" style=""/>
+<text text-anchor="middle" x="784.7" y="-517.8" font-family="Times,serif" font-size="14.00" style="">[root] provider["registry.terraform.io/hashicorp/azurerm"] (close)</text>
+</g>
+<!-- [root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] (close)&#45;&gt;[root] azurerm_subnet_network_security_group_association.example -->
+<g id="edge26" class="edge" data-name="[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] (close)-&gt;[root] azurerm_subnet_network_security_group_association.example">
+
+<path fill="none" stroke="black" d="M762.62,-503.59C730.69,-478.4 671.48,-431.68 635.33,-403.17" style=""/>
+<polygon fill="black" stroke="black" points="637.87,-400.72 627.85,-397.27 633.54,-406.21 637.87,-400.72" style=""/>
+</g>
+<!-- [root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] (close)&#45;&gt;[root] azurerm_windows_virtual_machine.example -->
+<g id="edge27" class="edge" data-name="[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] (close)-&gt;[root] azurerm_windows_virtual_machine.example">
+
+<path fill="none" stroke="black" d="M828.73,-503.88C853.06,-494.41 883.52,-482.57 909.44,-472.49" style=""/>
+<polygon fill="black" stroke="black" points="910.4,-475.87 918.46,-468.98 907.87,-469.34 910.4,-475.87" style=""/>
+</g>
+<!-- [root] root -->
+<g id="node19" class="node" pointer-events="visible" data-name="[root] root">
+
+<ellipse fill="none" stroke="black" cx="784.7" cy="-594" rx="50.99" ry="18" style=""/>
+<text text-anchor="middle" x="784.7" y="-589.8" font-family="Times,serif" font-size="14.00" style="">[root] root</text>
+</g>
+<!-- [root] root&#45;&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] (close) -->
+<g id="edge28" class="edge" data-name="[root] root-&gt;[root] provider[&quot;registry.terraform.io/hashicorp/azurerm&quot;] (close)">
+
+<path fill="none" stroke="black" d="M784.7,-575.7C784.7,-568.41 784.7,-559.73 784.7,-551.54" style=""/>
+<polygon fill="black" stroke="black" points="788.2,-551.62 784.7,-541.62 781.2,-551.62 788.2,-551.62" style=""/>
+</g>
+</g>
+</svg>
