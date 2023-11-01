@@ -1,3 +1,5 @@
+/*
+
 provider "azurerm" {
    features {}
  }
@@ -94,3 +96,5 @@ resource "azurerm_linux_virtual_machine" "example" {
     version   = "latest"
   }
 }
+
+*/
