@@ -16,5 +16,4 @@ variable "user" {
   description = "enter the user name"
 }
 
-
 */
